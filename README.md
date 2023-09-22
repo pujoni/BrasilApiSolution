@@ -66,15 +66,16 @@ Após a inicialização da aplicação, você pode acessar a documentação da A
 
 ## 🌐 Funcionalidades
 
-- **BrasilApiServiceClient**:
+ **BrasilApiServiceClient**:
 - Obter informações climáticas de uma cidade.
 - Obter informações climáticas de um aeroporto.
 - Listar cidades disponíveis.
 - Listar código de Capitais
 
-- **WeatherRepository**:
+ **WeatherRepository**:
 - Persistência das informações climáticas no banco de dados.
 - Registro de logs de erros.
+- Registro de logs de sucesso.
 
 **Docker**:
 A aplicação está configurada para rodar em um container Docker. Consulte o arquivo `Dockerfile` para mais detalhes.
