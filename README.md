@@ -9,8 +9,8 @@ Este repositório contém o projeto desenvolvido para o desafio proposto pela Ae
 - [Instalação e Configuração](#instalação-e-configuração)
 - [Documentação da API via Swagger](#documentação-da-api-via-swagger)
 - [Funcionalidades](#funcionalidades)
-- [Assets (Imagens)](#assets-imagens)
 - [Estrutura de banco de Dados](#estrutura-de-banco-de-dados)
+- [Assets (Imagens)](#assets-imagens)
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -78,26 +78,6 @@ Após a inicialização da aplicação, você pode acessar a documentação da A
 
 **Docker**:
 A aplicação está configurada para rodar em um container Docker. Consulte o arquivo `Dockerfile` para mais detalhes.
-
-## 🖼️ Assets (Imagens)
-
-## Estrutura do Código
-
-![Estrutura do Código](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/cdStructure.png)
-
-## Documentação via Swagger
-
-![Swagger Aeroporto](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/swAirport.png)
-![Swagger Capital](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/swCapital.png)
-![Swagger Lista de Cidades](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/swListCities.png)
-![Swagger Retorno Cidade](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/swReturnCity.png)
-![Swagger Cidade](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/swcity.png)
-
-## Imagens do Banco de Dados
-
-![Banco de Dados Aeroporto](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/dbAirport.png)
-![Banco de Dados Detalhes](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/dbDetails.png)
-![Banco de Dados Log de Erro](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/dbErrorLog.png)
 
 
 ## 📜 Estrutura de Banco de Dados
@@ -191,6 +171,34 @@ SELECT TOP (1000) [Id], [Cidade], [Estado], [Atualizado_em] FROM [WeatherDatabas
 ```sql
 SELECT TOP (1000) [Id], [CityId], [Data], [Condicao], [Min], [Max], [Indice_uv], [Condicao_desc] FROM [WeatherDatabase].[dbo].[WeatherDetails]
 ```
+## 🖼️ Assets (Imagens)
+
+## Estrutura do Código
+
+**Estrutura e visualização da construção do meu código**:
+![Estrutura do Código](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/cdStructure.png)
+
+## Documentação via Swagger
+
+**Retorna todas as cidades**:
+![Swagger Cidade](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/swcity.png)
+**Dados da cidade desejada**:
+![Swagger Retorno Cidade](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/swReturnCity.png)
+**Clima da cidade desejada**:
+![Swagger Lista de Cidades](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/swListCities.png)
+**Lista de Cidades com Aeroportos**:
+![Swagger Capital](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/swCapital.png)
+**Clima em Aeroporto**:
+![Swagger Aeroporto](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/swAirport.png)
+
+## Imagens do Banco de Dados
+
+**Logs**:
+![Banco de Dados Log de Erro](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/dbErrorLog.png)
+**Clima em aeroportos**:
+![Banco de Dados Aeroporto](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/dbAirport.png)
+**Detalhes de Clima**:
+![Banco de Dados Detalhes](https://github.com/pujoni/BrasilApiSolution/raw/master/assets/dbDetails.png)
 ---
 
 [Link do Projeto no GitHub](https://github.com/pujoni/BrasilApiSolution)
