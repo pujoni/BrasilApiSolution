@@ -70,7 +70,7 @@ Após a inicialização da aplicação, você pode acessar a documentação da A
 - Obter informações climáticas de uma cidade.
 - Obter informações climáticas de um aeroporto.
 - Listar cidades disponíveis.
-- ... (adicione outras funcionalidades conforme necessário)
+- Listar código de Capitais
 
 - **WeatherRepository**:
 - Persistência das informações climáticas no banco de dados.
